@@ -1,0 +1,27 @@
+2025-11-06 22:02:48,112 INFO    MainThread:576 [wandb_setup.py:_flush():81] Current SDK version is 0.22.0
+2025-11-06 22:02:48,112 INFO    MainThread:576 [wandb_setup.py:_flush():81] Configure stats pid to 576
+2025-11-06 22:02:48,112 INFO    MainThread:576 [wandb_setup.py:_flush():81] Loading settings from /root/.config/wandb/settings
+2025-11-06 22:02:48,112 INFO    MainThread:576 [wandb_setup.py:_flush():81] Loading settings from /tf/Plant-Pathology-Classificator/Trials/wandb/settings
+2025-11-06 22:02:48,112 INFO    MainThread:576 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-11-06 22:02:48,112 INFO    MainThread:576 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /tf/Plant-Pathology-Classificator/Trials/wandb/run-20251106_220248-j6939n8h/logs/debug.log
+2025-11-06 22:02:48,112 INFO    MainThread:576 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /tf/Plant-Pathology-Classificator/Trials/wandb/run-20251106_220248-j6939n8h/logs/debug-internal.log
+2025-11-06 22:02:48,112 INFO    MainThread:576 [wandb_init.py:monkeypatch_ipython():605] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x789b84c69460>
+2025-11-06 22:02:48,113 INFO    MainThread:576 [wandb_init.py:init():813] calling init triggers
+2025-11-06 22:02:48,113 INFO    MainThread:576 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'n_layers': 25, 'kernel_per_layer': [74, 53, 41, 128, 86, 120, 100, 123, 88, 76, 50, 25, 107, 87, 45, 18, 42, 74, 117, 13, 26, 16, 118, 89, 58, 18], 'kernel_size_per_layer': [3, 3, 7, 3, 10, 7, 7, 8, 8, 3, 7, 3, 8, 10, 3, 3, 8, 7, 3, 7, 10, 10, 10, 7, 8, 3], 'activations_per_layer': ['selu', 'leaky_relu', 'relu6', 'selu', 'relu6', 'relu', 'relu6', 'relu6', 'leaky_relu', 'leaky_relu', 'leaky_relu', 'relu6', 'relu', 'selu', 'relu', 'relu6', 'relu6', 'leaky_relu', 'relu6', 'relu6', 'relu6', 'relu6', 'relu6', 'relu6', 'relu6', 'relu6'], 'regularizer': 'L2', 'r_value': 3.7045539144082377e-06, 'r_value2': 7.844008800205617e-06, 'dropout_per_layer': ['n', 'y', 'y', 'n', 'n', 'y', 'y', 'n', 'y', 'n', 'y', 'y', 'y', 'y', 'n', 'y', 'n', 'y', 'y', 'y', 'y', 'n', 'n', 'n', 'n'], 'dropout_percentage_per_layer': [0.0, 0.3047285581907521, 0.49703800493735983, 0.0, 0.0, 0.48583702669385936, 0.41216039180606767, 0.0, 0.40319598227675935, 0.0, 0.23498545671602156, 0.3808093926744378, 0.4488273611853684, 0.444675920639849, 0.0, 0.4566983262589644, 0.0, 0.2087779420784776, 0.34846301966712206, 0.40842639695626226, 0.30983826799174413, 0.0, 0.0, 0.0, 0.0], 'learning_rate': 0.0023305466173599446, 'optimizer': 'sgd', '_wandb': {}}
+2025-11-06 22:02:48,113 INFO    MainThread:576 [wandb_init.py:init():861] starting backend
+2025-11-06 22:02:48,471 INFO    MainThread:576 [wandb_init.py:init():864] sending inform_init request
+2025-11-06 22:02:48,481 INFO    MainThread:576 [wandb_init.py:init():872] backend started and connected
+2025-11-06 22:02:48,493 INFO    MainThread:576 [wandb_run.py:_label_probe_notebook():1330] probe notebook
+2025-11-06 22:02:48,494 INFO    MainThread:576 [wandb_run.py:_label_probe_notebook():1340] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-11-06 22:02:48,495 INFO    MainThread:576 [wandb_init.py:init():942] updated telemetry
+2025-11-06 22:02:48,534 INFO    MainThread:576 [wandb_init.py:init():966] communicating run to backend with 90.0 second timeout
+2025-11-06 22:02:49,264 INFO    MainThread:576 [wandb_init.py:init():1017] starting run threads in backend
+2025-11-06 22:02:49,415 INFO    MainThread:576 [wandb_run.py:_console_start():2506] atexit reg
+2025-11-06 22:02:49,415 INFO    MainThread:576 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-11-06 22:02:49,415 INFO    MainThread:576 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-11-06 22:02:49,415 INFO    MainThread:576 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-11-06 22:02:49,418 INFO    MainThread:576 [wandb_init.py:init():1057] run started, returning control to user process
+2025-11-06 22:03:14,103 INFO    MainThread:576 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-11-06 22:07:29,822 INFO    wandb-AsyncioManager-main:576 [service_client.py:_forward_responses():84] Reached EOF.
+2025-11-06 22:07:29,822 INFO    wandb-AsyncioManager-main:576 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.
