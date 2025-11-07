@@ -14,6 +14,7 @@ import seaborn as sns
 
 import optuna
 import wandb
+import gc
 
 gpus = tf.config.list_physical_devices('GPU')
 
@@ -21,6 +22,9 @@ if gpus:
     print("TensorFlow is using the GPU \n", gpus)
 else:
     print("No GPU detected.")
+    
+for gpu in gpus:
+    tf.config.experimental.set_memory_growth(gpu, True)
 
 tf.keras.backend.clear_session()
 
